@@ -1,5 +1,24 @@
+:root{
+    --black-pearl-50: #f1f6fe;
+    --black-pearl-100: #e2ecfd;
+    --black-pearl-200: #bdd8fa;
+    --black-pearl-300: #83b8f6;
+    --black-pearl-400: #4294ee;
+    --black-pearl-500: #1977de;
+    --black-pearl-600: #0c5bbd;
+    --black-pearl-700: #0b4899;
+    --black-pearl-800: #0d3e7f;
+    --black-pearl-900: #113669;
+    --black-pearl-950: #050f1f;
+
+
+}
+
 body{
-    padding: 100px 300px;
+    padding: 100px 150px;
+    background: linear-gradient(var(--black-pearl-950), var(--black-pearl-800));
+    background-attachment: fixed;
+    height: 100vh;
 }
 
 .menu{
@@ -7,5 +26,6 @@ body{
 }
 
 .elige{
-    width: 550px;
+    width: 620px;
+    color: var(--black-pearl-50);
 }
