@@ -11,16 +11,25 @@
     <!-- Pestañas -->
     <ul class="nav nav-tabs menu">
         <li class="nav-item">
-            <a class="nav-link" href="sencillas.php">Sencillas</a>
+            <a class="nav-link" href="index.php">Altas</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="agrupadas.php">Campos agrupados</a>
+            <a class="nav-link" href="bajas.php">Bajas</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="multitablas.php">Multitabla</a>
+            <a class="nav-link" href="cambios.php">Cambios</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="having.php">Having</a>
+            <a class="nav-link" href="sencillas.php">Consultas Sencillas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="agrupadas.php">Consultas con Campos agrupados</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="multitablas.php">Consultas Multitabla</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="having.php">Consultas con Having</a>
         </li>
     </ul>
 
